@@ -4,6 +4,8 @@ $libxml_previous_state = libxml_use_internal_errors(true);
 $wordList = array();
 $count =0;
 $wordFile="wordbank.txt";
+//Scraps the word from the website and stores them in a file initially. Further processing takes the file as input
+// and processes them in array so that it could be used in logic.php
 if(!file_exists($wordFile))
 {
     if(filesize($wordFile)>0)
