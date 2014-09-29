@@ -1,0 +1,25 @@
+body{
+background: #c0c0c0;
+   text-align: center;
+    font-family: Monaco, Consolas, "Lucida Console", monospace;
+}
+
+.pwdgen {
+    background: #FFFF00;
+    color: #0000FF	;
+}
+
+.button {
+    background-color:#79bbff;
+    color:#050505;
+}
+
+.img{
+    width:50%;
+    vertical-align: middle;
+}
+
+.linkinfo{
+    font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, "AppleGothic", sans-serif;
+    font-size:100%;
+}
