@@ -38,9 +38,7 @@ ini_set('display_errors', 1);
         Do you need all lower case <input type="checkbox" name="allLower" value="1"><br>
     	<input type='submit' class="button" value='Generate word!'>
 </form>
-<h3>
-    <div class='<?=$class;?>'>
-
+<h3 class='<?=$class;?>'>
     <?php
     if (empty($winnerWord))
             echo "ERROR:". $validatedResult;
@@ -48,9 +46,16 @@ ini_set('display_errors', 1);
     {?>
             <?=$winnerWord;?>
     <?php }?>
-    </div>
 </h3>
 <img src="http://imgs.xkcd.com/comics/password_strength.png" alt="xcd password generator">
+
+<p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+             src="http://jigsaw.w3.org/css-validator/images/vcss"
+             alt="Valid CSS!" />
+    </a>
+</p>
 
 </body>
 </html>
