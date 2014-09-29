@@ -23,19 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="8" selection-start="2088" selection-end="2088" vertical-scroll-proportion="-7.509804" vertical-offset="552" max-vertical-offset="1190">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="styleforpwdgen.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/css/styleforpwdgen.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="30" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.85858583" vertical-offset="0" max-vertical-offset="612">
+            <state line="52" column="149" selection-start="2068" selection-end="2068" vertical-scroll-proportion="0.64324325" vertical-offset="527" max-vertical-offset="1190">
               <folding />
             </state>
           </provider>
@@ -55,8 +46,8 @@
         <option value="$PROJECT_DIR$/wordbank.php" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/logic.php" />
-        <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/css/styleforpwdgen.css" />
+        <option value="$PROJECT_DIR$/index.php" />
       </list>
     </option>
   </component>
@@ -280,16 +271,16 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/css/styleforpwdgen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="8" selection-start="2088" selection-end="2088" vertical-scroll-proportion="-7.509804" vertical-offset="552" max-vertical-offset="1190">
+        <state line="30" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.85858583" vertical-offset="0" max-vertical-offset="612">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styleforpwdgen.css">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.85858583" vertical-offset="0" max-vertical-offset="612">
+        <state line="52" column="149" selection-start="2068" selection-end="2068" vertical-scroll-proportion="0.64324325" vertical-offset="527" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>

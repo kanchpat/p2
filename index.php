@@ -50,7 +50,7 @@ ini_set('display_errors', 1);
 <img src="http://imgs.xkcd.com/comics/password_strength.png" alt="xcd password generator">
 
 <p>
-    <a href="http://jigsaw.w3.org/css-validator/validator?uri=p2.kanch.me&profile=css3&usermedium=all&warning=1&vextwarning=&lang=en">
+    <a href="http://jigsaw.w3.org/css-validator/validator?uri=p2.kanch.me&ampprofile=css3&ampusermedium=all&ampwarning=1&ampvextwarning=&amplang=en">
     Validate CSS
     </a>
     <br>
