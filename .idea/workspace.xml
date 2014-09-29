@@ -23,13 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.php" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="57" column="4" selection-start="2148" selection-end="2148" vertical-scroll-proportion="1.7845304" vertical-offset="0" max-vertical-offset="1139">
-              <folding>
-                <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="55" column="8" selection-start="2088" selection-end="2088" vertical-scroll-proportion="-7.509804" vertical-offset="552" max-vertical-offset="1190">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="styleforpwdgen.css" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/css/styleforpwdgen.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="30" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.85858583" vertical-offset="0" max-vertical-offset="612">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,9 +54,9 @@
         <option value="$PROJECT_DIR$/wordpreg.php" />
         <option value="$PROJECT_DIR$/wordbank.php" />
         <option value="$PROJECT_DIR$/README.md" />
-        <option value="$PROJECT_DIR$/css/styleforpwdgen.css" />
         <option value="$PROJECT_DIR$/logic.php" />
         <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/css/styleforpwdgen.css" />
       </list>
     </option>
   </component>
@@ -196,9 +203,7 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="36" column="47" selection-start="1339" selection-end="1339" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -212,9 +217,7 @@
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state line="21" column="7" selection-start="813" selection-end="813" vertical-scroll-proportion="0.0" vertical-offset="357" max-vertical-offset="493">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -277,19 +280,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/styleforpwdgen.css">
+    <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="18" selection-start="229" selection-end="229" vertical-scroll-proportion="0.37205386" vertical-offset="0" max-vertical-offset="595">
+        <state line="55" column="8" selection-start="2088" selection-end="2088" vertical-scroll-proportion="-7.509804" vertical-offset="552" max-vertical-offset="1190">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.php">
+    <entry file="file://$PROJECT_DIR$/css/styleforpwdgen.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="4" selection-start="2148" selection-end="2148" vertical-scroll-proportion="1.7845304" vertical-offset="0" max-vertical-offset="1139">
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#p#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
+        <state line="30" column="0" selection-start="486" selection-end="486" vertical-scroll-proportion="0.85858583" vertical-offset="0" max-vertical-offset="612">
+          <folding />
         </state>
       </provider>
     </entry>
