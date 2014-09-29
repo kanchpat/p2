@@ -9,6 +9,8 @@ if (!empty($_POST))
     $allUpper = $_POST["allUpper"];
     $allLower = $_POST["allLower"];
     $validatedResult =validateInputEntry($noOfWords,$mixedCases,$allUpper,$allLower);
+    if (!empty($validatedResult))
+        $class="errgen";
 }
 else
 {
@@ -23,6 +25,7 @@ if (empty($validatedResult))
 {
     $words = gatherWords($noOfWords,$wordList);
     $winnerWord= shuffleWord($words,$includeNumber,$includeSymbol,$mixedCases,$allLower,$allUpper);
+    $class="pwdgen";
 }
 
 function validateInputEntry($noOfWords,$mixedCases,$allUpper,$allLower){

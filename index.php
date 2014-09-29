@@ -39,11 +39,11 @@ ini_set('display_errors', 1);
     	<input type='submit' class="button" value='Generate word!'>
 </form>
 <h3>
-    <div class="pwdgen">
+    <div class='<?=$class;?>'>
 
     <?php
     if (empty($winnerWord))
-            echo $validatedResult;
+            echo "ERROR:". $validatedResult;
     else
     {?>
             <?=$winnerWord;?>

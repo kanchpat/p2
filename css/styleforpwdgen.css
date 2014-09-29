@@ -9,6 +9,11 @@ background: #c0c0c0;
     color: #0000FF	;
 }
 
+.errgen {
+    background: #FFFF00;
+    color: #FF0000	;
+}
+
 .button {
     background-color:#79bbff;
     color:#050505;
