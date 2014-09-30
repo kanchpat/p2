@@ -30,7 +30,7 @@
 		Do you like to include Symbol <input type='checkbox' name='includeSymbol' value="1"><br>
         Mixed Cases <input type="radio" name="cases" value="mixedCases">
         Upper Case <input type="radio" name="cases" value="allUpper">
-        Lower Case <input type="radio" name="cases" value="allLower" checked="true"><br>
+        Lower Case <input type="radio" name="cases" value="allLower" checked="checked"><br>
     	<input type='submit' class="button" value='Generate word!'>
 </form>
 <h3 class='<?=$class;?>'>
