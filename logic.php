@@ -6,9 +6,10 @@ if (!empty($_POST))
     $noOfWords = intVal($_POST["noOfWords"]);
     $includeNumber = $_POST["includeNumber"];
     $includeSymbol = $_POST["includeSymbol"];
-    $mixedCases = $_POST["mixedCases"];
-    $allUpper = $_POST["allUpper"];
-    $allLower = $_POST["allLower"];
+    $case = $_POST["cases"];
+    $mixedCases= ($case == "mixedCases"?1:0);
+    $allUpper = ($case == "allUpper"?1:0);
+    $allLower = ($case == "allLower"?1:0);
     $validatedResult =validateInputEntry($noOfWords,$mixedCases,$allUpper,$allLower);
     if (!empty($validatedResult))
         $class="errgen";
@@ -35,7 +36,7 @@ function validateInputEntry($noOfWords,$mixedCases,$allUpper,$allLower){
   if (! is_integer($noOfWords))
       return "Not number";
   elseif ($noOfWords > 9)
-      return "Restrict number of words";
+      return "Restrict number of words. Maximum words 9";
   elseif ($noOfWords == 0 or $noOfWords < 0)
       return "Please recheck number of words is 0 or less than 0";
   elseif ($allUpper and $allLower and $mixedCases)

@@ -1,7 +1,3 @@
-<?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,6 +16,8 @@ ini_set('display_errors', 1);
 <div id="layout">
   <h1> xkcd Password Generator </h1>
     <p class="linkinfo">
+        xkcd password generator is a web comic created by Randall Munroe.
+        The main goal of this generator is to create passwords which are easy to remember and tough for computers to guess<br>
      <a href="http://xkcd.com/936/">xkcd Website</a>
     </p>
 </div>
@@ -28,14 +26,11 @@ ini_set('display_errors', 1);
 		Enter Number of words <input type='text' name='noOfWords'>(Maximum 9)<br>
         <input type="hidden" name="includeNumber" value="0" />
         <input type="hidden" name="includeSymbol" value="0" />
-        <input type="hidden" name="mixedCases" value="0" />
-        <input type="hidden" name="allUpper" value="0" />
-        <input type="hidden" name="allLower" value="0" />
         Do you like to include Number <input type='checkbox' name='includeNumber' value="1"><br>
 		Do you like to include Symbol <input type='checkbox' name='includeSymbol' value="1"><br>
-        Do you need mix of cases <input type="checkbox" name="mixedCases" value="1"><br>
-        Do you need all upper case <input type="checkbox" name="allUpper" value="1"><br>
-        Do you need all lower case <input type="checkbox" name="allLower" value="1"><br>
+        Mixed Cases <input type="radio" name="cases" value="mixedCases">
+        Upper Case <input type="radio" name="cases" value="allUpper">
+        Lower Case <input type="radio" name="cases" value="allLower" checked="true"><br>
     	<input type='submit' class="button" value='Generate word!'>
 </form>
 <h3 class='<?=$class;?>'>
